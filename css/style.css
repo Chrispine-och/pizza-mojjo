@@ -1,7 +1,12 @@
 *{
     background-color: greenyellow;
+    text-align: center;
     
 }
 h1,h2{
     text-align: center;
+
+}
+.MOJJO:nth-child(1){
+color: red;
 }
