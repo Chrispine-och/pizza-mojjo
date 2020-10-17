@@ -1,12 +1,10 @@
-*{
-    background-color: greenyellow;
-    text-align: center;
-    
-}
-h1,h2{
+
+h1,h3,p{
     text-align: center;
 
 }
-.MOJJO:nth-child(1){
-color: red;
-}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
