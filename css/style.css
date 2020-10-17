@@ -1,4 +1,6 @@
-
+*{
+    background-color:greenyellow;
+}
 h1,h3,p{
     text-align: center;
 
@@ -7,5 +9,17 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-  
+}
+
+#order{
+    background-color: red;
+    
+    border: 2px solid black;
+   
+}
+
+#deliver{
+    background-color: red;
+    
+    border: 2px solid black;
+}
