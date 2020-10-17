@@ -1,22 +1,4 @@
-function myFunction() {
-    var x = document.getElementById("myDiv");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
 
-
-  function myDiv() {
-    var x = document.getElementById("myDIV1");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
- 
   function totalPrice (){
     var price = 0;
     var selectedSize = document.getElementById("sizes")
@@ -44,4 +26,35 @@ function myFunction() {
     totalPrice = price * parseInt(QuantityOfPizza);
     document.getElementById("totalDelivery").value = totalPrice;
     event.preventDefault();
-  }
+  } $(document).ready (function(){
+  
+    $("#order").on("click", function(){
+      $("#menu").fadeIn(1000);
+      $(".deliver").hide();
+    })
+    
+    $("#makeOrder").on("click", function(){
+      $(".deliver").show();
+    })
+    
+    $("#deliver").on("click", function(){
+      $("#menu1").fadeIn(1000);
+    })
+    
+    $("#order").on("click", function(){
+      $("#menu1").hide();
+    })
+    
+    $("#orderDelivery").on("click", function(){
+      var yourLocation = document.getElementById("location").value;
+      alert("Your delivery will be made to " + yourLocation + ", delivery fee is Kshs.200");
+    });
+    
+    $("#submit").on("click", function () {
+      var userName = document.getElementById("name").value;
+      alert(userName + " " + "we have received your message, thank you for your feedback");
+    });
+    
+    });
+  
+
