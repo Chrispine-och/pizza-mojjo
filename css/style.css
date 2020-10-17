@@ -1,5 +1,9 @@
-*{
-    background-color:greenyellow;
+body{
+    background-image: linear-gradient(red, yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 h1,h3,p{
     text-align: center;
@@ -11,22 +15,23 @@ img{
     margin-right: auto;
 }
 
-#order{
+#choose{
     background-color: #555555;
-
-
     cursor: pointer;
-    
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    float: left;
+    margin-left: 500px;
+   
+}
 
-  border: none;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
+#total {
+    background: red;
 }
    
 
