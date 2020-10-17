@@ -44,3 +44,4 @@ function myFunction() {
     totalPrice = price * parseInt(QuantityOfPizza);
     document.getElementById("totalDelivery").value = totalPrice;
     event.preventDefault();
+  }
