@@ -37,6 +37,48 @@
 
         </div>
 
+        <div class="row">
+            <div class="col-md-6">
+          <div id="menu">
+            <form>
+              <fieldset>
+                <legend>Select your desired taste and size of numberOfPizzas</legend>
+    
+                <label>Select your pizza size</label>
+                <select id="sizes">
+                  <option value="600" id="bigger">SMALL</option>
+                  <option value="800" id="big">MEDIUM</option>
+                  <option value="1000" id="biggest">LARGE PIZZA</option>
+                </select><br>
+    
+                <label>Type of Crust</label>
+                <select id="crusts">
+                  <option value="150" id="crispy">CRISPY</option>
+                  <option value="100" id="stuffed">STUFFED</option>
+                  <option value="200" id="gluten">GLUTEN FREE</option>
+                  <option value="220" id="sicilian">SICILIAN</option>
+                  <option value="250" id="pretzel">PRETZEL</option>
+                </select><br>
+    
+                <label>Desired Topping</label>
+                <select id="toppings">
+                  <option value="100" id="pepperoni">PEPPERONI</option>
+                  <option value="100" id="pineapple">PINEAPPLE</option>
+                  <option value="100" id="olive">BLACK OLIVES</option>
+                  <option value="100" id="mushroom">MUSHROOMS</option>
+                  <option value="100" id="cheese">CHEESE</option>
+                  <option value="100" id="onions">ONIONS</option>
+                  <option value="100" id="bacon">BACON</option>
+                  <option value="100" id="pepper">GREEN PEPPER</option>
+                </select><br>
+    
+                <label>How many pizzas do you want:</label>
+                <input id="numberOfPizzas" type="number"><br>
+    
+                <button type="submit" value="Submit" id="makeOrder" onclick="totalPrice()">Make Order</button>
+              </fieldset>
+            </form>
+
       </div>
 
 
