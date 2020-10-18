@@ -19,6 +19,28 @@ p{
      font-size: 20px;
 }
 
+#m{
+    color: yellow;
+  }
+  #a{
+    color: green;
+  }
+  #g{
+    color: gold;
+  }
+  #i{
+    color: brown;
+  }
+  #title1{
+    width: 300px;
+  }
+  #love{
+    font-size: 50px;
+  }
+  #icon{
+    animation: cubic-bezier(bounce 5s infinite);
+  }
+
 
 img{
     display: block;
