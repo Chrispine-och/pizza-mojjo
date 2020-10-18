@@ -1,7 +1,8 @@
+
 body{
-    background-image: linear-gradient(red, yellow);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(/image/pizza.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
     
 }
 h1,h3{
@@ -36,6 +37,9 @@ p{
   #love{
     font-size: 50px;
   }
+  #mojjo {
+      color: white;
+  }
   #icon{
     animation: cubic-bezier(bounce 5s infinite);
   }
@@ -47,8 +51,17 @@ img{
     margin-right: auto;
 }
 
+#p {
+    color:white;
+    font-weight: bolder;
+    background: rgb(0, 0, 0, 0.5);
+    width: 500px;
+    margin-left: 32%;
+    border-radius: 15px;
+}
+
 #choose{
-    background-color:red;
+    background: rgb(0, 0, 0, 0.5);
     cursor: pointer;
     border: none;
     padding: 16px 32px;
@@ -60,15 +73,39 @@ img{
     float: left;
     margin-left: 500px;
     height: auto;
+    color: white;
+}
+
+#legend {
+    background: rgba(44, 130, 201, 0.9);
+    width: 350px;
+    height: 520px;
+    color: white;
+    text-align: center;
+    border-radius:15px ;
+}
+ 
+#sizes,#crusts,#toppings1,#numberOfPizzas,#total,#location,
+#sizes1,#crusts1,#toppings1,#numberOfPizzas1{
+    
+    border: none;
+    border-radius: 10px;
+    width: 220px;
+    height: 30px;
 }
 
 
-   
-
+#sizes,#crusts,#toppings,#numberOfPizzas,#total,#location,
+#sizes1,#crusts1,#toppings1,#numberOfPizzas1:hover {
+    border: none;
+    border-radius: 10px;
+    width: 220px;
+    height: 30px;
+}
 
 #deliver{
 
-  background-color: red;
+  
   cursor: pointer;
   border:none;
   padding: 16px 32px;
@@ -94,13 +131,20 @@ img{
     cursor: pointer;  
 }
 
+.delivery {
+    
+    margin-left: 40%;
+    margin-top: -300px;
+   
+}
+
 #contacts{
-    margin-top: 10%;
+    margin-top: 15%;
     background-color: black;
     text-align: center;
     color: white;
     font-size: 24px;
-    height: 54vh;
+    height: 100vh;
 }
 #name{
     background: none;
