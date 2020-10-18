@@ -145,6 +145,7 @@ img{
     color: white;
     font-size: 24px;
     height: 100vh;
+    text-align: center;
 }
 #name{
     background: none;
