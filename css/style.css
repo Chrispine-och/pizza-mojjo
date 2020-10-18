@@ -2,8 +2,7 @@ body{
     background-image: linear-gradient(red, yellow);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 100vh;
+    
 }
 h1,h3{
     text-align: center; 
@@ -94,3 +93,40 @@ img{
     transition-duration: 0.4s;
     cursor: pointer;  
 }
+
+#contacts{
+    margin-top: 10%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    height: 54vh;
+}
+#name{
+    background: none;
+    width: 25%;
+    outline: 0;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+  }
+  #email{
+    background: none;
+    width: 25%;
+    outline: 0;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+  }
+  #message{
+    background: none;
+    width: 52%;
+    outline: 0;
+    margin-top: 2.5%;
+    border: 1px solid white;
+    padding-bottom: 15%;
+    color: white;
+    font-size: 18px;
+  }
